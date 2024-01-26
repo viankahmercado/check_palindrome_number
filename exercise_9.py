@@ -18,3 +18,5 @@ def check_if_palindrome(number):
         print(f"The given number {original_number} \nNo, is not a palindrome")
 
 # check if working
+check_if_palindrome(13578)
+check_if_palindrome(32123)
