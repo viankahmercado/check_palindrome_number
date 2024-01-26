@@ -8,5 +8,13 @@
 # A palindrome number is a number that is the same after reverse. For example, 545, is the palindrome numbers
 
 # create a function
+def check_if_palindrome(number):
+    original_number = str(number)
+    reversed_number = original_number[::-1]
+
+    if original_number == reversed_number:
+        print(f"The given number {original_number} \nYes, it's a palindrome number")
+    else:
+        print(f"The given number {original_number} \nNo, is not a palindrome")
 
 # check if working
